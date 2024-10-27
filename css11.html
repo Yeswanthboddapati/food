@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        img{
+            width: auto;
+            height: 50vh;
+        }
+        .img2{
+            width: 70px;
+            height: 50px;
+        }
+        #nav{
+            border: 1px solid;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(251, 253, 252);
+            display: grid;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between; 
+            align-content: center;
+            font-size: x-large;
+            font-family:'Courier New', Courier, monospace;
+            letter-spacing: 2px;
+            position: fixed;
+            box-shadow: 0px 0px 15px 3px;
+        }
+        .pic{
+            display: grid;  
+            grid-template-columns: auto auto auto auto;
+            row-gap: 60px;
+            padding: 30px 180px;
+            text-align: center;
+            column-gap: 30px;
+            /* margin: 0 100px 0 100px; */
+            /* font-family: 'Times New Roman', Times, serif; */
+        
+        }
+       .hover{
+           color: black;
+           display: grid;
+           grid-template-columns: auto auto auto auto auto auto;
+           padding: 20px 590px;
+           transition: all;
+       }
+       .hov:hover{
+           color: white;
+           background-color: grey;
+           width: 20px;
+           height: 20px;
+           border: 1px;
+           text-align: center;
+           transform: scale(2.0);
+       }
+       .me{
+           text-align: center;
+           padding: 100px 200px;
+           display: grid;
+           grid-template-rows: auto auto auto auto auto;
+           row-gap: 40px ;
+       }
+       .footer{
+           display: grid;
+           grid-template-columns: 30% auto 30%;
+           padding-left: 250px;
+           padding-right: 200px;
+           column-gap: 40px;
+       }
+       h2{
+          font-family: monospace;
+          letter-spacing: 3px;
+       }
+       h3{
+          font-family: 'Times New Roman', Times, serif;
+          letter-spacing: 0px;
+          font-weight: 500;
+       }
+       strong{
+          background-color: rgb(115, 108, 108);
+          color: rgb(248, 248, 242);
+          font-size: small;
+       }
+       .pic2{
+          display: flex;
+          justify-items: center;
+       }
+       .el3 h3{
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing: 3px;
+        font-weight: 540;
+        word-spacing: 2px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav id="nav">
+            <div style="margin-left: 140px;">&#x2630;</div>
+            <div>MY FOOD</div>
+            <div style="margin-right: 140px;">EMAIL</div>
+        </nav>
+        <div class="pic">
+            <div class="el1">
+                <img src="perfect.jpg" alt=""><br>
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3><br>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="el2">
+                <img src="p letme.jpg" alt=""><br>
+                <h3>Let Me Tell You About This Steak</h3><br>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="el3">
+                <img src="p cherries.jpg" alt=""><br>
+                <h3>Cherries, interrupted</h3><br>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                    What else?</p>
+            </div>
+            <div class="el4">
+                <img src="p onceagain.jpg" alt=""><br>
+                <h3>Once Again, Robust Wine and Vegetable Pasta</h3><br>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="el5">
+                <img src="p all.jpg" alt=""><br>
+                <h3>All I Need Is a Popsicle</h3><br>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="el4">
+                <img src="p salmon.jpg" alt=""><br>
+                <h3>Salmon For Your Skin</h3><br>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="el4">
+                <img src="perfect.jpg" alt=""><br>
+                <h3>The Perfect Sandwich, A Real Classic</h3><br>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum</p>
+            </div>
+            <div class="el4">
+                <img src="p french.jpg" alt=""><br>
+                <h3>Le French</h3><br>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+        <div class="hover">
+            <div class="hov">&#129176;</div>
+            <div class="hov">1</div>
+            <div class="hov">2</div>
+            <div class="hov">3</div>
+            <div class="hov">4</div>
+            <div class="hov">&#129178;</div>
+        </div>
+        <div class="me">
+                <div><h2>About Me, The Food Man</h2></div>
+                <div><img src="p about me.jpg" alt=""></div>
+                <div><h3>I am Who I Am!</h3></div>
+                <div><i>With Passion For Real, Good Food</i></div>
+                <div><p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p></div>
+        </div>
+        <div class="footer">
+            <div class="el1">
+                <h2>FOOTTER</h2><br>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p><br>
+                <p>Powered By<a href="https://www.w3schools.com/w3css/default.asp">W3.css</a></p>
+            </div>
+            <div class="el2">
+                <h2>BLOG POSTS</h2><br>
+                <div class="pic2">
+                    <img src="lorem.jpg" alt="" class="img2"><br>
+                    <p>Lorem
+                        Sed mattis nunc</p>
+                </div><br>
+                <div class="pic2">
+                    <img src="ipsum.jpg" alt="" class="img2"><br>
+                    <p>Ipsum
+                        Praes tinci sed</p>
+                </div>
+            </div>
+            <div class="el3">
+                <h2>POPULAR TAGS</h2><br>
+                <strong style="background-color: black;">Travel</strong>
+                <strong>New York</strong>
+                <strong>Dinner</strong>
+                <strong>Salmon</strong>
+                <strong>France</strong>
+                <strong>Drinks</strong>
+                <strong>Ideas</strong>
+                <strong>Duck</strong>
+                <strong>Travel</strong>
+                <strong>New York</strong>
+                <strong>Dinner</strong>
+                <strong>Salmon</strong>
+                <strong>France</strong>
+                <strong>Drinks</strong>
+                <strong>Ideas</strong>
+                <strong>Duck</strong>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
